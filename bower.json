@@ -1,0 +1,17 @@
+{
+  "name": "vue-learning",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/phamquynh123/vue-learning",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
