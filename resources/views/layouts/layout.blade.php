@@ -29,7 +29,7 @@
 
         <!--end::Base Styles -->
         <link rel="shortcut icon" href="../assets/demo/default/media/img/logo/favicon.ico" />
-        
+        @routes
         @yield('style')
     </head>
     <!-- end::Head -->

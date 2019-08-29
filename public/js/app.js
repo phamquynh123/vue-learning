@@ -40868,7 +40868,7 @@ var render = function() {
       _c(
         "div",
         { staticClass: "m-grid__item m-grid__item--fluid m-wrapper" },
-        [_c("SubHeaderComponent"), _vm._v(" "), _c("router-view")],
+        [_c("SubHeaderComponent")],
         1
       )
     ],
@@ -56925,9 +56925,12 @@ module.exports = function(module) {
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
   \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+!(function webpackMissingModule() { var e = new Error("Cannot find module './components/home/page/body/content/BatchContentComponent.vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -56935,20 +56938,14 @@ module.exports = function(module) {
  */
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js"); // import home-component from './components/home/HomeComponent.vue'
-
-/**
- * The following block of code may be used to automatically register your
- * Vue components. It will recursively scan this directory for the Vue
- * components and automatically register them with their "basename".
- *
- * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
- */
-// const files = require.context('./', true, /\.vue$/i);
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
+window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue"));
 Vue.component('home-component', __webpack_require__(/*! ./components/home/HomeComponent.vue */ "./resources/js/components/home/HomeComponent.vue")["default"]);
+var routes = [{
+  path: '/batch',
+  component: !(function webpackMissingModule() { var e = new Error("Cannot find module './components/home/page/body/content/BatchContentComponent.vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())
+}];
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -56958,6 +56955,12 @@ Vue.component('home-component', __webpack_require__(/*! ./components/home/HomeCo
 var app = new Vue({
   el: '#app'
 });
+var router = new VueRouter({
+  routes: routes,
+  linkActiveClass: "active",
+  mode: "history"
+});
+/* harmony default export */ __webpack_exports__["default"] = (router);
 
 /***/ }),
 

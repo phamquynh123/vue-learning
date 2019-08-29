@@ -162,6 +162,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Yajra\DataTables\DataTablesServiceProvider::class, // laravel datatable
+        Tightenco\Ziggy\ZiggyServiceProvider::class, //ziggy
 
         /*
          * Package Service Providers...
