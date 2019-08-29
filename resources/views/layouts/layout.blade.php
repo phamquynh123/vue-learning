@@ -21,10 +21,10 @@
         <!--end::Web font -->
 
         <!--begin::Base Styles -->
-        <link href="bower-components/managetrainee-bower/css/vendors.bundle.css" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('bower_components/managetrainee-bower/css/vendors.bundle.css') }}" rel="stylesheet" type="text/css" />
 
         <!--RTL version:<link href="../../../assets/vendors/base/vendors.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
-        <link href="bower-components/managetrainee-bower/css/style.bundle.css" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('bower_components/managetrainee-bower/css/style.bundle.css') }}" rel="stylesheet" type="text/css" />
         <!--RTL version:<link href="../assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
 
         <!--end::Base Styles -->
@@ -40,8 +40,8 @@
         @yield('content')
 
         <!--begin::Base Scripts -->
-        <script src="bower-components/managetrainee-bower/js/vendors.bundle.js" type="text/javascript"></script>
-        <script src="bower-components/managetrainee-bower/js/scripts.bundle.js" type="text/javascript"></script>
+        <script src="bower_components/managetrainee-bower/js/vendors.bundle.js" type="text/javascript"></script>
+        <script src="bower_components/managetrainee-bower/js/scripts.bundle.js" type="text/javascript"></script>
         <!-- <script type="text/javascript">
             var ActionsDemo={init:function(){$(".summernote").summernote({height:250})}};jQuery(document).ready(function(){ActionsDemo.init()});
         </script> -->
